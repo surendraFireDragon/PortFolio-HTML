@@ -41,8 +41,13 @@ a:hover{
   color: #eaf6f6
 }
 .top-Container {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("/images/desert.jpg"); */
+
   position: relative;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   padding-top: 100px;
   height: 700px;
 }
