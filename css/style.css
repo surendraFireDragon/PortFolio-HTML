@@ -40,6 +40,7 @@ a{
 a:hover{
   color: #eaf6f6
 }
+
 .top-Container {
   background-position: top;
   background-repeat: no-repeat;
@@ -49,7 +50,7 @@ a:hover{
   position: relative;
   /* background-color: burlywood; */
   padding-top: 100px;
-  height: 700px;
+  height: 740px;
 }
 .middle-container{
   margin: 100px 0;
@@ -135,4 +136,31 @@ line-height: 2;
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+/* Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+ a:hover {
+  text-decoration: none;
+  /* background-color: rgb(80, 74, 74);
+  border-radius: 2px ; */
 }
