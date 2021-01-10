@@ -94,9 +94,17 @@ width: 50%;
 text-align: left;
 line-height: 2;
 }
+.skill-row2{
+  margin: auto;
+  margin-top: 80px;
+width: 50%;
+
+text-align: left;
+line-height: 2;
+}
 .design{
   float: left;
-  margin: 30px 30px auto auto;
+  margin: 10px 30px auto auto;
   border-radius: 2rem ;
 }
 .design-dev{
